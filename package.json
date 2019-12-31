@@ -1,10 +1,12 @@
 {
-  "name": "ip",
+  "name": "ipCatcher",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "install-windows-service": "winser -i",
+    "uninstall-windows-service": "winser -r"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/sostenesapollo12/ipCatcher/issues"
   },
-  "homepage": "https://github.com/sostenesapollo12/ipCatcher#readme"
+  "homepage": "https://github.com/sostenesapollo12/ipCatcher#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "winser": "^1.0.3"
+  }
 }
