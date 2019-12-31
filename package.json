@@ -1,0 +1,19 @@
+{
+  "name": "ip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sostenesapollo12/ipCatcher.git"
+  },
+  "author": "Sostenes Apollo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sostenesapollo12/ipCatcher/issues"
+  },
+  "homepage": "https://github.com/sostenesapollo12/ipCatcher#readme"
+}
